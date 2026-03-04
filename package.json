@@ -1,0 +1,36 @@
+{
+  "name": "@firela/parsers-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Community-driven financial institution statement parsers",
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test",
+    "lint": "pnpm -r run lint",
+    "clean": "pnpm -r run clean"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.0",
+    "ts-jest": "^29.2.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.8.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fire-la/parsers"
+  },
+  "bugs": {
+    "url": "https://github.com/fire-la/parsers/issues"
+  },
+  "homepage": "https://github.com/fire-la/parsers#readme",
+  "license": "MIT",
+  "author": "Firela Team"
+}
