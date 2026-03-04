@@ -9,9 +9,11 @@ dist/
 npm-debug.log*
 pnpm-debug.log*
 
-# OS files
+# System Files
 .DS_Store
+**/.DS_Store
 Thumbs.db
+**/Thumbs.db
 
 # IDE
 .idea/
